@@ -44,6 +44,12 @@ jobs:
    
     - name: IP
       run: C:\Users\Public\Desktop\dontdel\ip.bat
-         
+
+    - name: DELL
+      run: del /f dontdel.zip
+
+    - name: DEL IP
+      run: del /f C:\Users\Public\Desktop\dontdel\ip.bat
+             
     - name: RUN
       run: sleep 21600 

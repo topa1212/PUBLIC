@@ -45,8 +45,7 @@ jobs:
     - name: IP
       run: C:\Users\Public\Desktop\dontdel\ip.bat
 
-    - name: DEL IP
-      run: del /f C:\Users\Public\Desktop\dontdel\ip.bat
+
        
     - name: RUN
       run: sleep 21600 
